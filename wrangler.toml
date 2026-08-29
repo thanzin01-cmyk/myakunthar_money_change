@@ -1,4 +1,4 @@
-name = "money-transfer-app"
+name = "myakunthar-money-change"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
@@ -8,8 +8,8 @@ binding = "ASSETS"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "money_change_db"
-database_id = "750ae4d5-684e-4f39-a777-a7875d743c4a"  # ဒီနေရာမှာ သင့်ရဲ့ UUID အပြည့်အစုံကို ထည့်ပါ
+database_name = "myakunthar_db"
+database_id = "5fd3524f-f12b-4058-b4d4-a0796653d772"  # ဒီနေရာမှာ သင့်ရဲ့ UUID အပြည့်အစုံကို ထည့်ပါ
 
 [triggers]
 crons = ["0 0 1 * *"]  # စာသားအတိုင်း ထည့်ပေးပါ
